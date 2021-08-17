@@ -9,7 +9,7 @@ task:
     name: Build
     timeout_in: 120m
     container:
-      image: cimg/android:30.0
+      image: cimg/android:31.0
       cpu: 5
       memory: 20G
     download_ccache_script:
@@ -48,6 +48,3 @@ task:
       - mka bacon -j4
     ccache_stats_script:
       - ccache -s
-    upload_script:
-      - chmod +x ./upload.sh
-      - ./upload.sh
