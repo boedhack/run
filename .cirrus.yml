@@ -1,10 +1,3 @@
-env:
-    CIRRUS_CLONE_DEPTH: 1
-    CIRRUS_WORKING_DIR: "/tmp/project"
-    rclone_config: "ENCRYPTED[239ba73e22a443df2d3725b423ee10de2e642ac571fe9c69ceaa6be2acde91e712e2b825b6618c6581f57b11e4d1e563]"
-    ccache_url: "ENCRYPTED[fd966b66c76388c77894dee8f12f78a758154ddfca220ef9d49d1af859986ae353bee531aaf5dec9dd8c0a841eb4debe]"
-    scripts_url: "ENCRYPTED[ae41f3bdc4f7c439c53af25eb75262f6d0203575a8071240950daf9e30148a696a4c91f938c909d8986c24157b5dee11]"
-
 task:
     name: Build
     timeout_in: 120m
