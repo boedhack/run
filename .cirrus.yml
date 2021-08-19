@@ -48,3 +48,4 @@ task:
       - mka bacon -j4
     ccache_stats_script:
       - ccache -s
+
